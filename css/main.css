@@ -146,8 +146,15 @@ h2 {
 	align-items: center;
 }
 
-.add-to-cart:hover {
+.add-to-cart:active {
 	background-color: var(--hightlight-clr-hover);
+}
+
+/* to prevent sticky hover on touchscreen*/
+@media (hover: hover) {
+	.add-to-cart:hover {
+		background-color: var(--hightlight-clr-hover);
+	}
 }
 
 /* || FOR SMALL SCREEN  */
