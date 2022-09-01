@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="diasaur" />
+		<meta
+			name="description"
+			content="Product preview card component, a frontendmentor.io challenge"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<title>Frontend Mentor | Product preview card component</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<article class="card">
+			<h2 class="offscreen">Gabrielle Essence Eau De Parfum</h2>
+			<figure class="product-img">
+				<picture>
+					<source
+						srcset="/images/image-product-desktop.jpg"
+						media="(min-width: 576px)"
+					/>
+					<source
+						srcset="/images/image-product-mobile.jpg"
+						media="(max-width: 576px)"
+					/>
+					<img
+						src="./images/image-product-desktop.jpg"
+						alt="Gabrielle Essence Eau De Parfum"
+						title="Gabrielle Essence Eau De Parfum"
+						width="600"
+						height="900"
+					/>
+				</picture>
+				<figcaption class="offscreen">
+					A bottle of Gabrielle Essence Eau De Parfum
+				</figcaption>
+			</figure>
+			<section class="product-text">
+				<p class="product-type">perfume</p>
+				<h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
+				<p class="product-desc">
+					A floral, solar and voluptuous interpretation composed by Olivier
+					Polge, Perfume-Creator for the House of CHANEL.
+				</p>
+				<p class="product-price">
+					<span class="new">&dollar;149.99</span>
+					<span class="old">&dollar;169.99</span>
+				</p>
+				<button class="add-to-cart">
+					<img
+						src="./images/icon-cart.svg"
+						alt="Cart Icon"
+						width="15"
+						height="16"
+					/>
+					Add to Cart
+				</button>
+			</section>
+		</article>
+
+		<footer class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://github.com/diaasaur" target="_blank">dia</a>.
+		</footer>
+	</body>
+</html>
