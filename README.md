@@ -25,15 +25,23 @@ Users should be able to:
 
 ### Screenshot
 
-|                                            |                                          |
-| :----------------------------------------: | :--------------------------------------: |
-| ![Desktop View](./screenshots/desktop.png) | ![Mobile View](./screenshots/mobile.png) |
-|                                            |                                          |
+<table>
+        <tr>
+            <td>
+                <img src="./images/screenshots/desktop.png"
+                    alt="Desktop View" title="Desktop View"  width="auto" height='500px'/>
+            </td>
+            <td>
+                <img src="./images/screenshots/mobile.png"
+                    alt="Mobile View" title="Mobile View" width="auto" height='500px'/>
+            </td>
+        </tr>
+</table>
 
 ### Links
 
-- Solution URL: [github](https://github.com/diaasaur/product-preview-card-component)
-- Live Site URL: [live](https://diaasaur.github.io/product-preview-card-component/)
+- [Github](https://github.com/diaasaur/product-preview-card-component)
+- [Live](https://diaasaur.github.io/product-preview-card-component/)
 
 ## My process
 

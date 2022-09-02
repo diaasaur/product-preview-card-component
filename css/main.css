@@ -85,6 +85,7 @@ h2 {
 	margin: 1.25em 1em;
 	border-radius: var(--card-border-radius);
 	max-width: 600px;
+	min-width: 300px;
 }
 
 /* product image */
