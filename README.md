@@ -29,11 +29,11 @@ Users should be able to:
         <tr>
             <td>
                 <img src="./images/screenshots/desktop.png"
-                    alt="Desktop View" title="Desktop View"  width="auto" height='500px'/>
+                    alt="Desktop View" title="Desktop View"  width="100%" height='auto'/>
             </td>
             <td>
                 <img src="./images/screenshots/mobile.png"
-                    alt="Mobile View" title="Mobile View" width="auto" height='500px'/>
+                    alt="Mobile View" title="Mobile View" width="100%" height='auto'/>
             </td>
         </tr>
 </table>
